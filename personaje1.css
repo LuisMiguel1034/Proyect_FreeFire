@@ -1,0 +1,60 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background:#f3eae8;
+    height: 100vh;
+}
+nav ul li :hover{
+    color: red;
+}
+.men{
+    text-decoration:none ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EDBB99  ;
+}
+nav a{
+    color:black;
+}
+nav .logo img {
+    max-height: 40px;
+}
+.logo h1{
+    font-family: Bruno Ace SC;
+    font-weight: bold;
+    font-size: 50px;
+    font-style: oblique;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.logo h1 span{
+  color:red;
+}
+nav ul li {
+    margin-top: 11px;
+}
+nav ul li{
+    font-size: 19px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+}
+.menu li{
+    display: inline-block;
+    color: red;
+    margin-right: 30px;
+    margin-bottom: 5px;
+}
+
